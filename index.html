@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Food Ninja</title>
+  <!-- materialize icons, css & js -->
+  <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" href="/css/styles.css" rel="stylesheet">
+  <script type="text/javascript" src="/js/materialize.min.js" async></script>
+</head>
+<body class="grey lighten-4">
+
+  <!-- nav bar -->
+  <nav-webapp></nav-webapp>
+  
+  <!-- recipes -->
+  <container-recipes></container-recipes>
+
+  <!-- add button -->
+  <add-button></add-button>
+
+  <!-- add recipe side nav -->
+  <form-recipes></form-recipes>
+
+  <script src="/js/ui.js"></script>
+  <script type="module" src="/components/nav_topElement.js"></script>
+  <script type="module" src="/components/recipe_content.js"></script>
+  <script type="module" src="/components/container_recipes.js"></script>
+  <script type="module" src="/components/side_form.js"></script>
+  <script type="module" src="/components/add_button.js"></script>
+</body>
+</html>
